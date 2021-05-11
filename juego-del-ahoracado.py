@@ -110,6 +110,7 @@ def run():
         if word_mask.count(CARACTER_SUBGUION) > 0 :
             if intentos == MAX_INTENTOS:
                 print("Perdiste!!!!!!, la palabra era: " + word)
+                win = True
             else:    
                 print("Adivina la palabra: " + word_mask)
                 leter = input("Ingresa una letra: ")
