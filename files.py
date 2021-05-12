@@ -13,8 +13,8 @@ def write():
             f.write("\n")
 
 def run():
-    read()
-    write()
+    read() #funcion para leer
+    write() #funcion para escribir colocando lo nuevo al final
 
 
 if __name__ == '__main__':
