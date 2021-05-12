@@ -109,13 +109,13 @@ def run():
         draw(intentos)
         if word_mask.count(CARACTER_SUBGUION) > 0 :
             if intentos == MAX_INTENTOS:
-                print("Perdiste!!!!!!, la palabra era: " + word)
+                print("Perdiste!!!!!!!!!, la palabra era: " + word)
                 win = True
             else:    
                 print("Adivina la palabra: " + word_mask)
                 leter = input("Ingresa una letra: ")
         else:
-            print("Ganaste!!!!, la palabra es: " + word_mask)
+            print("Ganaste!!!!!!, la palabra es: " + word_mask)
             win = True
 
 if __name__ == '__main__':
